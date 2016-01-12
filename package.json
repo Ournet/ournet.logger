@@ -1,0 +1,30 @@
+{
+  "name": "ournet.logger",
+  "version": "0.1.0",
+  "description": "Ournet logger",
+  "main": "./lib/logger.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ournet/ournet.logger.git"
+  },
+  "keywords": [
+    "ournet",
+    "logger"
+  ],
+  "author": "Dumitru Cantea",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ournet/ournet.logger/issues"
+  },
+  "homepage": "https://github.com/Ournet/ournet.logger#readme",
+  "dependencies": {
+    "winston": "^2.1.1",
+    "winston-loggly": "^1.2.0"
+  },
+  "devDependencies": {
+    "mocha": "^2.3.4"
+  }
+}
